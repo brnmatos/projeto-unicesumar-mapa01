@@ -158,6 +158,5 @@ public class Principal {
 		}
 		
 		System.out.println("Sessão finalizada!");
-
 	}
 }

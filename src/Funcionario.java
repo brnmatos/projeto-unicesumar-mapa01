@@ -1,6 +1,5 @@
 
 public class Funcionario {
-	
 	private int id;
 	private String nome;
 	private String cidade;
@@ -46,6 +45,5 @@ public class Funcionario {
 	public String getStatus(){return status;}
 
 	public void setStatus(String status){this.status = status;}
-
 
 }

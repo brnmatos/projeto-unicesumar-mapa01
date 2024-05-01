@@ -60,7 +60,6 @@ public interface ModeloCrud {
 			gravaBat.close();
 			
 		});
-
 	}
 	
 	public static void excluir(Funcionario funcionario) throws IOException {
@@ -147,10 +146,6 @@ public interface ModeloCrud {
 		});
 
 		return funcionariosTemp;
-	}
-
-	public static void validar() {
-
 	}
 
 	public static List<Funcionario> listar() throws IOException {
@@ -251,5 +246,4 @@ public interface ModeloCrud {
 
 		return funcionarioTemp;
 	}
-
 }
